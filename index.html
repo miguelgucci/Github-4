@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Bootsrap</title>
+
+</head>
+<body>
+    <!--This is container-->
+    <div class="container bg-primary">
+        <h2>Bootstrap Template</h2>
+    </div>
+
+    <div class="container-fluid bg-success">
+        <h2>Bootstrap Template Fluid</h2>
+    </div>
+  
+    <div class="container-{breakpoint bg} bg-success">
+        <h2>Bootstrap Template Breakpoint</h2>
+    </div>
+
+    <!-----The Grid System------>
+
+    <div class="container-fluid">
+        <h2>The Grid System</h2>
+
+        <div class="row">
+            <div class="col-3 bg-light border">
+                <h2>sample heading</h2>
+            </div>
+            <div class="col-3 bg-light border">Col2</div>
+            <div class="col-3 bg-light border">Col3</div>
+    </div>
+
+    <div class="container-fluid">
+        <h2>Nested Grid</h2>
+
+        <div class="row">
+            <div class="col bg-secondary m-1 p-5"> grey
+                <div class="row">
+                    <div class="col bg-warning border m-1 p-5"> col1 </div>
+                    <div class="col bg-warning border m-1 p-5"> col2 </div>
+                
+                </div>
+            <div class="col">Col 2</div>
+
+        </div>
+
+    </div>
+
+                <!--Text alignment-->
+        <p class="text-start"> this is start alignment </p>
+        <p class="text-center"> this is center alignment </p>
+        <p class="text-end"> this is end alignment </p>
+
+                <!--Text transform-->
+        <p class="text-uppercase">miguel gutierrez</p>
+        <p class="text-capitalize">miguel natividad gutierrez</p>
+        <p class="text-lowercase">MIGUEL NATIVIDAD GUTIERREZ</p>
+        <br>
+                
+                <!--font size-->
+        <p class="fs-1"> this is FS1</p>
+        <p class="fs-2"> this is FS2</p>
+        <p class="fs-3"> this is FS3</p>
+        <p class="fs-4"> this is FS4</p>
+        <p class="fs-5"> this is FS5</p>
+        <p class="fs-6"> this is FS6</p>
+        <br>
+
+                <!--fontweight-->
+
+        <p class="fw-bold">Bold text</p>
+        <p class="fw-bolder">Bolder text</p>
+        <p class="fw-normal">Normal text</p>
+        <p class="fw-light">light text</p>
+        <p class="fw-lighter">lighter text</p>
+        <br>
+
+                <!--float-->
+
+        <p class="float-start fw-bold fs-1 ">Float:Left</p>
+        <br>
+        <p class="float-end">Float:End</p>
+        <br>
+
+                <!--text style-->
+        <p class="text-muted">this text is muted</p>
+        <p class="text-primary">This is Primary</p>
+        <p class="text-secondary">This is Secondary</p>
+        <p class="text-info">This is info</p>
+        <p class="text-success">This is Success</p>
+        <p class="text-warning">This is warning</p>
+
+                <!--block quote-->
+        
+        <blockquote class="Blockquote">
+            <h2>blockquote</h2>
+            <p>This is Blockquote</p>
+            <footer class="blockquote-footer">Sample footer</footer>
+        </blockquote>
+
+        <br>
+        <br>
+
+                <!--buttons-->
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">danger</button>
+        <button type="button" class="btn btn-warning">warning</button>
+        <button type="button" class="btn btn-info">info</button>
+        <button type="button" class="btn btn-light">light</button>
+        <button type="button" class="btn btn-dark">dark</button>
+
+        <br>
+            <br>
+                <!--buttons outline-->
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">danger</button>
+        <button type="button" class="btn btn-outline-warning">warning</button>
+        <button type="button" class="btn btn-outline-info">info</button>
+        <button type="button" class="btn btn-outline-light">light</button>
+        <button type="button" class="btn btn-outline-dark">dark</button>
+        
+        <br>
+            <br>
+                <!--buttons group-->
+
+        <div class="btn-group float-end">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-secondary">About </button>
+        <button type="button" class="btn btn-success">Contact</button>
+        </div>
+        <br>
+        <br>
+
+                <!--buttons group-->
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary btn-lg">Primary</button>
+        <button type="button" class="btn btn-primary btn-sm">Primary</button>
+        <button type="button" class="btn btn-primary btn-blocked">Primary</button>
+
+        <br>
+
+        <div class="d-grid">
+            <button type="button" class="btn btn-success btn-block">Full-width button</button>
+        </div>
+
+        <br>
+        <br>
+
+                <!--table-->
+        <h2>table bootstrap</h2>
+        <table class="table table-bordered table-hover">
+        <thead class="table-success">
+            <tr>
+                <th>Sample 1</th>
+                <th>Sample 2</th>
+                <th>Sample 3</th>
+                <th>Sample 4</th>
+
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+            <tr class="table-info">
+                <td>migz</td>
+                <td>migz</td>
+                <td>migz</td>
+                <td>migz</td>
+            </tr>
+            <tr>
+                <td>gucci</td>
+                <td>gucci</td>
+                <td>gucci</td>
+                <td>gucci</td>
+            </tr>
+            <tr>
+                <td>gucci</td>
+                <td>gucci</td>
+                <td>gucci</td>
+                <td>gucci</td>
+            </tr>
+
+
+        </tbody>
+
+
+
+
+
+
+
+
+        </table>
+
+            <!--stacked form-->
+
+<div class="container">
+    <h2>Stacked forms</h2>
+    <form>
+        <label form="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter Email">
+    <br>
+        <label for="pwd" class="form-label">Password</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+        <br>
+        <button type="submit" class="btn btn-primary"> Submit</button>  
+    </form>
+
+            <!--inline form-->
+
+<div class="container">
+    <h2>Inline form</h2>
+    
+    <form>
+        <div class="row">
+            <div class="col">
+                <input type="text"class="form-control" placeholder="Enter Email" name="email">   
+            </div>
+            <div class="col">
+                <Input type="Password" class="form-control" placeholder="Enter Password" name="pwd">
+
+
+            </div>
+
+
+        </div>
+        <br>
+
+        <button type="submit" class="btn btn-primary"> Submit</button> 
+    </form>
+</div>
+<br>
+
+<!------Form Contorl Size-->
+
+<Input type="text" class="form-control" placeholder="default formsize">
+<Input type="text" class="form-control form control-lg" placeholder="larger formsize">
+<Input type="text" class="form-control form control-sm" placeholder="small formsize">
+<br>
+<br>
+    
+<input type="text" class="form-contol form-contol-lg" placedholder="Default formsize">
+
+<!------Form Contorl Size-->
+
+<div class="container">
+    <h2>Color Picker</h2>
+    <form>
+        <label for="myColor" class="form-label">Color Picker</label>
+
+        <input type="color" class="form-control form-control-color" id="mycolor" title="choose a color">
+
+    </form>
+
+
+</div> 
+
+<br>
+<!------select menu-->
+<div class="container">
+    <h2>Select Menu</h2> 
+
+    <form>
+        <select class="form-select" id="sel1" name="sellist1">
+            <option>Valenzuela</option>
+            <option>Caloocan</option>
+            <option>Bulacan</option>
+            <option>Manila</option>
+            <option>Cavite</option>
+        </select>
+        <br>
+
+        <select multiple class="form-select" id="sel2" name="selllist 2">
+            <option>Valenzuela</option>
+            <option>Caloocan</option>
+            <option>Bulacan</option>
+            <option>Manila</option>
+            <option>Cavite</option>
+
+        </select>
+    </form>
+</div>
+
+<!------checkbox-->
+
+    <div class="container"></div>
+        <h2>Checkbox</h2>
+        <form>
+            <input type="checkbox" class="form-check-input" id="check1" name="opt1" value="something">
+            <label class="form-check-label" for="check1">Male</label>
+
+            <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check1" name="opt1" value="something">
+            <label class="form-check-label" for="check1">Female</label>
+            </div>
+        </form>
+
+        <br>
+
+<!------Radio Button-->
+
+<div class="container">
+    <h2>Radio Button</h2>
+    <form>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="r1"> Option 1
+            <input type="radio" class="form-check-input" id="r2"> Option 2
+        </div>
+
+
+    </form>
+
+</div>
+
+<br>
+
+<!------toggle switch-->
+
+<div class="container">
+    <h2>Toggle Switch</h2>
+    <form>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="myswitch"> Dark Mode
+
+        </div>
+
+
+    </form>
+
+</div> 
+
+<br>
+
+<!------Float Label-->
+
+<div class="container">
+    <h2> Float Label</h2>
+
+    <form>
+        <div class="form-floating">
+ 
+            <input type="text" class="form-control" id="email" placeholder="Enter Email">
+            <label for="email">Email</label>
+        </div>
+
+        <div class="form-floating">
+
+        <input type="text" class="form-control" id="pwd" placeholder="Enter Password">
+        <label for="password">Enter password</label>
+    </div>
+
+
+    </form>
+
+</div>
+
+<br>
+
+<!------Text Area-->
+
+<div class="container">
+    <h2> Text Area</h2>
+    <form>
+        <div class="form-floating">
+            <textarea class="form-control" id="comment" placeholder="comment goes here"></textarea>
+            <label for="comment">Comments</label>
+        </div>
+
+    </form>
+
+    <br>
+
+<!------Form .was-validation-->
+
+<div class="container">
+    <h2>Form .was-validated </h2>
+
+    <form class="was-validated">
+        <div>
+            <label for="uname" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="Invalid-feedback"> Please fill out this field</div>
+        </div>
+
+        <div>
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter Password" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="Invalid-feedback"> Please fill out this field</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    
+    </form>
+
+</div>
+
+
+<br>
+
+<!------Form .needs-validation-->
+
+<div class="container">
+    <h2>Form .needs-validation</h2>
+
+    <form class="needs-validation" novalidate>
+        <div class="col">
+
+            <label for="uname" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="uname" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Invalid</div>
+        </div>
+
+        <div class="col">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Invalid</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
+
+
+
+
+</script>
+</html>
